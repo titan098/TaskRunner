@@ -1,0 +1,22 @@
+{
+    "name": "TaskRunner",
+    "keywords": "tasks, arduino, esp8266",
+    "description": "An simple asyncronous task runner for Arduino sketches",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/titan098/TaskRunner.git"
+    },
+    "authors":
+    [
+      {
+        "name": "David Ellefsen",
+        "email": "david.ellefsen@gmail.com",
+        "url": "https://github.com/titan098/TaskRunner",
+        "maintainer": true
+      }
+    ],
+    "version": "0.0.1",
+    "frameworks": "arduino",
+    "platforms": "*"
+  }
