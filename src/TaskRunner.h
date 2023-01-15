@@ -4,7 +4,6 @@
 #include <algorithm>
 #include <memory>
 #include <vector>
-#include <mutex>
 
 #include <Arduino.h>
 
@@ -31,7 +30,6 @@ class TaskRunner {
     unsigned long currentMillis;
 
     vector<shared_ptr<Task>> tasks;
-    mutex taskMutex;
 };
 
 #endif
